@@ -1,0 +1,45 @@
+.upcoming-meeting {
+    background-image: url(../images/meetings-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0 150px 0;
+  }
+div.filters {
+    margin-bottom: 50px;
+    text-align: center;
+}  
+.filters ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.filters ul li:hover {
+    background-color: #a12c2f;
+    color: #fff;
+}
+.fon-filters {
+  background-color: #a12c2f !important;
+  color: #fff !important;
+}
+
+.filters li {
+    font-size: 13px;
+    color: #a12c2f;
+    background-color: #fff;
+    padding: 15px 25px;
+    display: inline-block;
+    border-radius: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0px 3px;
+}
+.hide {
+    display: none;
+    animation-name: a1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  
